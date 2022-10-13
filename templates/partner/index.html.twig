@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello Sport - Compte Partenaire{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="center">
+        <br>
+        <br>
+        <h1><strong>Espace Partenaire Hall Sport :</strong></h1>
+        <hr>
+        <p>Bonjour et Bienvenue</p>
+    </div>
+        <p class="connect">Votre Salle de Sport : {{ app.user.hall }}<br>Votre Adresse Mail de Connexion  : {{ app.user.email }}</p>
+</div>
+    <hr>
+
+{% endblock %}
